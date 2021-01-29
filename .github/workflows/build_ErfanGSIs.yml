@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://hugeota.d.miui.com/9.8.29/miui_MIMAX2_9.8.29_a0ca14d327_7.1.zip
+  ROM_URL: https://183-249-5-1.ksyungslb.com/bigota.d.miui.com/9.8.29/miui_MIMAX2_9.8.29_a0ca14d327_7.1.zip?ksy_gslb_referer=https%3A%2F%2Fmiuiver.com%2Foxygen-9-8-29%2F
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
