@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/9.8.29/miui_MIMAX2_9.8.29_a0ca14d327_7.1.zip
+  ROM_URL: https://bigota.d.miui.com/9.8.29/miui_MI5X_9.8.29_9c43b3cd13_8.1.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -61,4 +61,4 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer fog final/GSI.zip
